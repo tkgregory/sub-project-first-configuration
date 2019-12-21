@@ -1,0 +1,4 @@
+rootProject.name = 'sub-project-first-configuration'
+
+include 'sub-project-1', 'sub-project-2'
+

@@ -1,0 +1,9 @@
+group 'com.tom'
+version '1.0-SNAPSHOT'
+
+evaluationDependsOnChildren()
+
+Project subProject1 = project('sub-project-1')
+Project subProject2 = project('sub-project-2')
+
+subProject1.tasks['doThing1'].mustRunAfter(subProject2.tasks['doThing2'])

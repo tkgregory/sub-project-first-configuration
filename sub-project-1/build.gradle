@@ -1,0 +1,3 @@
+task('doThing1').doLast {
+    println "Doing thing1 in $project.name"
+}
