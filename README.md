@@ -4,7 +4,7 @@ at [tomgregory.com](https://tomgregory.com/gradle-evaluation-order-for-multi-pro
 ## Running
 
 Demonstrates using `evaluationDependsOnChildren()` to evaluate a 
-project's sub-projects first, during hte configuration phase of the 
+project's sub-projects first, during the configuration phase of the 
 build:
 
 `./gradlew doThing1 doThing2`
